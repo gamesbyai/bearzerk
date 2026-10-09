@@ -7,8 +7,8 @@ creatures to thousands. Hold out from sunrise until the final boss rises at nigh
 **Play it** at https://gamesbyai.win/games/bearzerk/, or straight from this repo's page at https://gamesbyai.github.io/bearzerk/.
 It's made for desktop browsers for now, and runs best with WebGPU (a recent Chrome or Edge).
 
-This repository holds the built game that GitHub Pages serves. Claude Code on Claude Opus 5.5 built it, and Codex on
-GPT-6 Astra reviewed the code, hunted for bugs, generated the images and did the early work on the 3D models.
+This repository holds the built game that GitHub Pages serves. It was made with Claude Opus 5.5 in the Claude app,
+and Codex on GPT-6 Astra did code review, bug testing, image generation and early model work.
 
 ## Special thanks
 
