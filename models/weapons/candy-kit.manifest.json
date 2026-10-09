@@ -1,0 +1,221 @@
+{
+  "generator": "art-src/blender/weapons/build_candy_kit.py",
+  "blender": "5.2.1 LTS",
+  "meshes": {
+    "gumball": {
+      "vertices": 1326,
+      "triangles": 2648,
+      "evaluatedAfterModifiers": true,
+      "authoring": {
+        "subdivision": {
+          "type": "CATMULL_CLARK",
+          "levels": 2
+        },
+        "decimation": {
+          "type": "COLLAPSE",
+          "ratio": 0.36
+        },
+        "normals": "smooth + weighted"
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "bounds": [
+        [
+          -1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "bakes": {
+        "source": "gumball-high-level3",
+        "target": "gumball",
+        "uv0": "UVMap",
+        "normal": "gumball-normal.png",
+        "ao": "gumball-ao.png",
+        "size": [
+          512,
+          512
+        ],
+        "marginPixels": 8,
+        "cyclesSamples": 64,
+        "isolatedBakePair": true,
+        "targetCastsBakeShadow": false,
+        "selectedToActive": true,
+        "tangentNormal": true,
+        "colorspace": "Non-Color",
+        "aoDistanceGameUnits": 0.12,
+        "uvRange": [
+          [
+            0.003074,
+            0.996926
+          ],
+          [
+            0.003074,
+            0.698642
+          ]
+        ],
+        "aoNonblackPixelCoverage": 0.62476,
+        "aoMeanIncludingUvBackground": 0.62291,
+        "highSourceSharesPuffedShapeBeforeGameDecimation": true
+      }
+    },
+    "spark": {
+      "vertices": 52,
+      "triangles": 100
+    },
+    "bean": {
+      "vertices": 146,
+      "triangles": 288
+    },
+    "drop": {
+      "vertices": 146,
+      "triangles": 288
+    },
+    "pod": {
+      "vertices": 146,
+      "triangles": 288
+    },
+    "star": {
+      "vertices": 3002,
+      "triangles": 6000,
+      "normalizedOuterRadius": 1.0,
+      "weightedNormals": true,
+      "gameMeshDecimation": {
+        "type": "COLLAPSE",
+        "requestedRatio": 0.027102,
+        "targetTriangles": 6000
+      },
+      "evaluatedNormalizedDimensions": [
+        1.916974,
+        1.838864,
+        0.635057
+      ],
+      "evaluatedAfterModifiers": true,
+      "authoring": {
+        "closedOutlinePoints": 10,
+        "curveHandles": "BEZIER AUTO for rounded candy tips",
+        "outerRadiusMeters": 0.35,
+        "cavityInnerRadiusMeters": 0.175,
+        "curveExtrudeMeters": 0.04,
+        "curveBevelDepthMeters": 0.03,
+        "subdivision": {
+          "type": "CATMULL_CLARK",
+          "levels": 2
+        },
+        "cageRadialValleySupport": {
+          "outerPointScale": 1.0,
+          "cavityScale": 0.8,
+          "fivefoldSmoothProfile": true
+        },
+        "voxelRemeshMeters": 0.003,
+        "postRemeshSmooth": {
+          "factor": 0.35,
+          "iterations": 3
+        },
+        "capDomeMetersEachSide": 0.05,
+        "capDomeProfile": "radial from center with smooth face-normal weighting",
+        "capDomeRadialExponent": 1.3,
+        "capDomeNormalWeightRange": [
+          0.1,
+          0.85
+        ],
+        "gameNormals": "smooth + mild weighted normals (weight 1, keep sharp)"
+      },
+      "evaluatedAuthoredDimensionsMeters": [
+        0.724052,
+        0.694549,
+        0.239865
+      ],
+      "evaluatedAuthoredOuterRadiusMeters": 0.377706,
+      "normalizationFactor": 2.647565,
+      "runtimeNormalization": {
+        "xyScale": "starGeometry outer parameter",
+        "zScale": "thickness / 0.64"
+      },
+      "bakes": {
+        "source": "star-high-level3",
+        "target": "star",
+        "uv0": "UVMap",
+        "normal": "star-normal.png",
+        "ao": "star-ao.png",
+        "size": [
+          512,
+          512
+        ],
+        "marginPixels": 8,
+        "cyclesSamples": 64,
+        "isolatedBakePair": true,
+        "targetCastsBakeShadow": false,
+        "selectedToActive": true,
+        "tangentNormal": true,
+        "colorspace": "Non-Color",
+        "aoDistanceGameUnits": 0.12,
+        "uvRange": [
+          [
+            0.005038,
+            0.994962
+          ],
+          [
+            0.005038,
+            0.934666
+          ]
+        ],
+        "aoNonblackPixelCoverage": 0.60739,
+        "aoMeanIncludingUvBackground": 0.5912,
+        "highSourceSharesPuffedShapeBeforeGameDecimation": true
+      }
+    },
+    "crystal": {
+      "vertices": 14,
+      "triangles": 24
+    },
+    "ember": {
+      "vertices": 9,
+      "triangles": 14
+    },
+    "ribbon": {
+      "vertices": 8,
+      "triangles": 4
+    },
+    "billboard-ribbon": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "disc": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "orbit-ring": {
+      "vertices": 256,
+      "triangles": 256
+    },
+    "orbit-band": {
+      "vertices": 514,
+      "triangles": 512
+    },
+    "bakeRecipe": {
+      "engine": "CYCLES CPU",
+      "samples": 64,
+      "imageSize": [
+        512,
+        512
+      ],
+      "marginPixels": 8,
+      "methods": [
+        "selected-to-active tangent normal",
+        "selected-to-active AO"
+      ],
+      "highSource": "Level-3 subdivision of matching smoothed/domed game form before final game decimation."
+    }
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "generator": "prepare-photo-textures.py",
+  "maps": {
+    "sugar": {
+      "source": "art-src/blender/creatures/generated-textures/sugar/source.png",
+      "source_sha256": "ae6eade172923fd4ab24512d46e1c76d60b62e199d49355d0c3d4ffbfca4e71c",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 3.0,
+      "roughness_range": [
+        0.42,
+        0.62
+      ],
+      "mean_luminance_linear": 0.5444626212120056,
+      "mean_height": 0.544285237789154,
+      "mean_roughness": 0.5111075043678284,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 23.868154525756836,
+        "x_max_abs_8bit": 128.0,
+        "y_mean_abs_8bit": 18.974746704101562,
+        "y_max_abs_8bit": 111.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/sugar/albedo.webp",
+          "sha256": "0ab83da033b54fe4f32e8748f26362812c5a3b85da83d84066738f54d850982c",
+          "bytes": 2208290
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/sugar/height.webp",
+          "sha256": "b5e28dc25f071df9a2775cb88180ea183dfcbf0132382413de995390c914267e",
+          "bytes": 608424
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/sugar/normal.webp",
+          "sha256": "f3f633341ab324faa39a0cba984f8e29f942064130c9b914250cf47bc2e7e6df",
+          "bytes": 2143320
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/sugar/roughness.webp",
+          "sha256": "66bcf3fa54f7bfa1ff058e749358618f97d0269479ba935439aa16c184f0dff9",
+          "bytes": 695858
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-sugar.jpg",
+        "sha256": "3ed48181c6894b28bb7cbf1279139beefce23971c52d49d3eb358608aad475ef",
+        "bytes": 233552
+      }
+    },
+    "chocolate": {
+      "source": "art-src/blender/creatures/generated-textures/chocolate/source.png",
+      "source_sha256": "41686ea49eaa30296679abd32108e7457469efee8187aeea5328fe87babcef1c",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 0.5,
+      "roughness_range": [
+        0.18,
+        0.3
+      ],
+      "mean_luminance_linear": 0.024831822142004967,
+      "mean_height": 0.024731343612074852,
+      "mean_roughness": 0.29702019691467285,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 4.398458480834961,
+        "x_max_abs_8bit": 65.0,
+        "y_mean_abs_8bit": 7.728601932525635,
+        "y_max_abs_8bit": 148.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/chocolate/albedo.webp",
+          "sha256": "91c721fd6e91d100682381cfd68b5921fece60fc85f5b4fbf1bfb734b6c93943",
+          "bytes": 1551972
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/chocolate/height.webp",
+          "sha256": "ed6d80eb4807444d27e12a494b282c11db96fa5cf33c679c21e77026be658c03",
+          "bytes": 234922
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/chocolate/normal.webp",
+          "sha256": "5bbcea51821f24891d0d72fb393aefe21669d06c3ce0980c5e67068ace74edf4",
+          "bytes": 326158
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/chocolate/roughness.webp",
+          "sha256": "de31032b23f26e0a2f3fd98fd0cb0c097930e9703625863e4b7386e2acd3e9cc",
+          "bytes": 78766
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-chocolate.jpg",
+        "sha256": "296fc14995485c86570da693942ebd0dfb23f4af07df4b10ed2473679fd8ed54",
+        "bytes": 92755
+      }
+    },
+    "wafer": {
+      "source": "art-src/blender/creatures/generated-textures/wafer/source.png",
+      "source_sha256": "139ad4137e74f6e6dbaa445031a7a45375c64bd5e893077c3aeabe70da0d4e86",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 3.0,
+      "roughness_range": [
+        0.6,
+        0.82
+      ],
+      "mean_luminance_linear": 0.36553841829299927,
+      "mean_height": 0.3653971552848816,
+      "mean_roughness": 0.7395815253257751,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 19.485380172729492,
+        "x_max_abs_8bit": 97.0,
+        "y_mean_abs_8bit": 19.549175262451172,
+        "y_max_abs_8bit": 118.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/wafer/albedo.webp",
+          "sha256": "86d3b35daee48cf5b2bb9920ef32364bc99bf1ea12590ffcc458254a9e800264",
+          "bytes": 2399662
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/wafer/height.webp",
+          "sha256": "a67c472007620fbdf15d8cd693a7cac19af35ac6c081c643861dcbfc85b8a36e",
+          "bytes": 465364
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/wafer/normal.webp",
+          "sha256": "783a18d08c150cdb8d8eefb59b6a802ccf3c6cb751e9a032647de31795f0f2a7",
+          "bytes": 1656224
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/wafer/roughness.webp",
+          "sha256": "1426b8443be473e92e635a392faef458985bacc9854b4292f70f49fa985f948a",
+          "bytes": 621622
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-wafer.jpg",
+        "sha256": "cb236ff3d24ad7750dd46e29c2df8751e38b56b817ef4f8f19aae8afd98cc473",
+        "bytes": 205243
+      }
+    },
+    "mallow": {
+      "source": "art-src/blender/creatures/generated-textures/mallow/source.png",
+      "source_sha256": "826d4821756db910aa5c91261c102eb7b22452063db389506846b0ea191684d7",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 1.0,
+      "roughness_range": [
+        0.78,
+        0.94
+      ],
+      "mean_luminance_linear": 0.7225309610366821,
+      "mean_height": 0.7224330902099609,
+      "mean_roughness": 0.8243951201438904,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 7.833333492279053,
+        "x_max_abs_8bit": 58.0,
+        "y_mean_abs_8bit": 9.993354797363281,
+        "y_max_abs_8bit": 50.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/mallow/albedo.webp",
+          "sha256": "fdecb73e8e15b3595fb0663fd5f24ca100c12b60f7baa91c282c809ba5c84208",
+          "bytes": 1953402
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/mallow/height.webp",
+          "sha256": "68ff01cd05407ad9028a6edf0b178d1efee1d823011698da42181fa6bd97def9",
+          "bytes": 504656
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/mallow/normal.webp",
+          "sha256": "794243f9abf8c45d41f1ef946cdb54b350264c7b43664e21c23d7270362cc59a",
+          "bytes": 995186
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/mallow/roughness.webp",
+          "sha256": "80bf804e7e863ea7a5398e5d7c8b50f7e6d02cb0a2787f55487cdfd18a1a0af9",
+          "bytes": 545194
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-mallow.jpg",
+        "sha256": "8c99f862e3cd91cc5ed403c23a02f26a8a4f5b2a30ade3afdf7793dc1419cfff",
+        "bytes": 152534
+      }
+    },
+    "gummy": {
+      "source": "art-src/blender/creatures/generated-textures/gummy/source.png",
+      "source_sha256": "139ead413a1ce34e9b276f47ddd329108d15c58141780df400783b4830cd119b",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 1.2,
+      "roughness_range": [
+        0.08,
+        0.22
+      ],
+      "mean_luminance_linear": 0.19399800896644592,
+      "mean_height": 0.1938077211380005,
+      "mean_roughness": 0.19284029304981232,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 7.442051887512207,
+        "x_max_abs_8bit": 104.0,
+        "y_mean_abs_8bit": 8.794258117675781,
+        "y_max_abs_8bit": 88.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/gummy/albedo.webp",
+          "sha256": "a9e5c62af6e1e40261e9a1868329d7f3deaff8e25a06b2ac31ca949318627980",
+          "bytes": 1856308
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/gummy/height.webp",
+          "sha256": "fa86a7b8c9485db4cd9ccf86fa25605ebda69fe4fea520572ea6feb0fffb03f3",
+          "bytes": 397016
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/gummy/normal.webp",
+          "sha256": "ad2b36dcbfba9bcaa3935a4178583be19b7715778e3a4b7ea6a9770d914c2252",
+          "bytes": 797564
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/gummy/roughness.webp",
+          "sha256": "ecec7040735c40c016029566c5fd67fee49025c69ad5646311c95c4a3f5a742c",
+          "bytes": 354618
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-gummy.jpg",
+        "sha256": "f02aef9a0741b8e264eaf4b1b49d27fd2d855c59098cb8f8a79f6e3252d4b650",
+        "bytes": 172019
+      }
+    },
+    "licorice": {
+      "source": "art-src/blender/creatures/generated-textures/licorice/source.png",
+      "source_sha256": "6bc73f274d893f79188053a115e3e826082cf26115c70dc3746855497a56d14b",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 0.7,
+      "roughness_range": [
+        0.2,
+        0.32
+      ],
+      "mean_luminance_linear": 0.03840915113687515,
+      "mean_height": 0.03815541788935661,
+      "mean_roughness": 0.3153909146785736,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 31.53535270690918,
+        "x_max_abs_8bit": 188.0,
+        "y_mean_abs_8bit": 28.786815643310547,
+        "y_max_abs_8bit": 184.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/licorice/albedo.webp",
+          "sha256": "33cd19d5162da376f6d1b638ed2e9a5235c20c6601b5e8615cfd1e6da8a5dfab",
+          "bytes": 2161996
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/licorice/height.webp",
+          "sha256": "ecdba644a62ee10ca4056e3d51bd279180cfb7f5b010bc1a945ed7e54fe7ae94",
+          "bytes": 348164
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/licorice/normal.webp",
+          "sha256": "05c17062f634e252a0b25e69e239f2fca1d11c714c31682ae945ad1bd96bd795",
+          "bytes": 551734
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/licorice/roughness.webp",
+          "sha256": "fc07cdd53b1fd191d57e43550df412aef5d22bfcc6c8228b87e4048017dc398f",
+          "bytes": 259874
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-licorice.jpg",
+        "sha256": "0dbbbe92069d56eea42b5df2c995e657d599fd965edf73510c801461f67c8c25",
+        "bytes": 238997
+      }
+    },
+    "cotton-pink": {
+      "source": "art-src/blender/creatures/generated-textures/cotton-pink/source.png",
+      "source_sha256": "f132d0a27a0bb16a5a739c76ef4ba7cd8e6772160970caaa1fe626dd1031c08c",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 1.0,
+      "roughness_range": [
+        0.88,
+        0.98
+      ],
+      "mean_luminance_linear": 0.43097639083862305,
+      "mean_height": 0.43084752559661865,
+      "mean_roughness": 0.9369022846221924,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 9.850345611572266,
+        "x_max_abs_8bit": 61.0,
+        "y_mean_abs_8bit": 10.00132942199707,
+        "y_max_abs_8bit": 64.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/cotton-pink/albedo.webp",
+          "sha256": "3ae837ba8bb07911856eb9531991ff63df8a9ecc78de6ea0fd90d2a1954b8d50",
+          "bytes": 2196148
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/cotton-pink/height.webp",
+          "sha256": "d127599d3c899cb0d87c18d942fa1f5c14a34802f272513e653ce942767fa5c0",
+          "bytes": 452662
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/cotton-pink/normal.webp",
+          "sha256": "303e1301a1142fbe515d9b864ae7df2bbe504a61d0278580daa4cc279c40a23b",
+          "bytes": 850950
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/cotton-pink/roughness.webp",
+          "sha256": "df1c368c324cc85546275bde97ebcf2f92e65d3bf3f55da08e84ec08be018dec",
+          "bytes": 440128
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-cotton-pink.jpg",
+        "sha256": "40be458cfe8e2fa13a70721027106a170a643b0c4bf9ed70512e5351c2b83462",
+        "bytes": 172429
+      }
+    },
+    "cotton-blue": {
+      "source": "art-src/blender/creatures/generated-textures/cotton-blue/source.png",
+      "source_sha256": "b4bd6e00ba73018cbccb011f0de2fb43faf62011879cf59c4253115c33da7918",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 1.0,
+      "roughness_range": [
+        0.88,
+        0.98
+      ],
+      "mean_luminance_linear": 0.4932887554168701,
+      "mean_height": 0.4931446313858032,
+      "mean_roughness": 0.9306711554527283,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 9.610313415527344,
+        "x_max_abs_8bit": 108.0,
+        "y_mean_abs_8bit": 9.564327239990234,
+        "y_max_abs_8bit": 62.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/cotton-blue/albedo.webp",
+          "sha256": "9f1bfa0184fc0ac8f89bcdbf6f10acd4967b4a99afa9943a46a4dda21529268e",
+          "bytes": 2024710
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/cotton-blue/height.webp",
+          "sha256": "f111f405423832dd4c83b3a771596d106b44c142ffcf02c538ffa20f0f33cd10",
+          "bytes": 452278
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/cotton-blue/normal.webp",
+          "sha256": "f1dc35027d662bd881d2d71c514182a884aab0b53481e45178f1826b69df39a1",
+          "bytes": 850816
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/cotton-blue/roughness.webp",
+          "sha256": "d7b00badfd41a2792dd8cb157080517d62f773388f584b71dfa0f260efd3454b",
+          "bytes": 425748
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-cotton-blue.jpg",
+        "sha256": "63a8613ed17a09e3be9d69626431d1dc9de761770b58b625337d5b3c4dcf07d6",
+        "bytes": 164352
+      }
+    },
+    "crystal": {
+      "source": "art-src/blender/creatures/generated-textures/crystal/source.png",
+      "source_sha256": "546bbc4ee89cca20fd79ebf67d88aba510f28da3ce0b99dc04968bce5978cfb7",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "source_size_px": [
+        1254,
+        1254
+      ],
+      "color_space": {
+        "albedo": "sRGB",
+        "height": "linear data",
+        "normal": "linear tangent-space RGB",
+        "roughness": "linear data"
+      },
+      "normal_strength": 2.0,
+      "roughness_range": [
+        0.08,
+        0.28
+      ],
+      "mean_luminance_linear": 0.32808154821395874,
+      "mean_height": 0.32789891958236694,
+      "mean_roughness": 0.21438369154930115,
+      "source_boundary_error": {
+        "x_mean_abs_8bit": 13.972089767456055,
+        "x_max_abs_8bit": 99.0,
+        "y_mean_abs_8bit": 12.224614143371582,
+        "y_max_abs_8bit": 91.0
+      },
+      "boundary_error": {
+        "x_mean_abs_8bit": 0.0,
+        "x_max_abs_8bit": 0.0,
+        "y_mean_abs_8bit": 0.0,
+        "y_max_abs_8bit": 0.0
+      },
+      "outputs": {
+        "albedo.webp": {
+          "path": "public/textures/creatures/crystal/albedo.webp",
+          "sha256": "42f3495fc5c08045a4c0ea3bf131909ce9389992f07ec2a0f7cf88bd3d51b8f8",
+          "bytes": 2106662
+        },
+        "height.webp": {
+          "path": "public/textures/creatures/crystal/height.webp",
+          "sha256": "3db1c67c1ff82ef3127ba694972a13a39d9478fa13cbdbc5beb2ceac28b331f5",
+          "bytes": 521204
+        },
+        "normal.webp": {
+          "path": "public/textures/creatures/crystal/normal.webp",
+          "sha256": "4c96af32e6ebb56a3ffc1ed61ebd47c43f8e747da3aaa8be144afa442c1b901d",
+          "bytes": 1547606
+        },
+        "roughness.webp": {
+          "path": "public/textures/creatures/crystal/roughness.webp",
+          "sha256": "cbcaffe141e0e9593d653b532c8fd5510056499592ecd2ab98d84540aa571e4a",
+          "bytes": 648022
+        }
+      },
+      "preview": {
+        "path": "docs/art-review/creatures/34-texture-tiles-crystal.jpg",
+        "sha256": "2442acccc02f9b787a4c2a6677c005ea785cb968ff99c6601a46c3625e8f2952",
+        "bytes": 210783
+      }
+    }
+  },
+  "review_board": {
+    "path": "docs/art-review/creatures/34-texture-tiles.jpg",
+    "sha256": "6ac054cb7a35c56e7d487fbaab794188415eb9f4e735d358ac3fbc21369141f4",
+    "bytes": 158517,
+    "limit_bytes": 300000
+  }
+}
