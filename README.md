@@ -1,5 +1,7 @@
 # Bearzerk!
 
+[![Bearzerk! on GamesByAI](https://gamesbyai.win/badge/bearzerk.svg)](https://gamesbyai.win/games/bearzerk/?ref=badge)
+
 You're a see-through gummy bear dropped on an alien candy planet, and everything that lives there wants you gone. Your
 weapons fire on their own, so your job is to move, jump and pick upgrades while the swarm grows from a few dozen
 creatures to thousands. Hold out from sunrise until the final boss rises at nightfall, then beat it.
